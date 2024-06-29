@@ -2,4 +2,5 @@ git clone git@github.com:asifcsedu/demo-repo.git
 git status
 git add .
 git commit -m "Added testing.html"
+git branch -a
 git push origin main
