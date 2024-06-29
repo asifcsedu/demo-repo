@@ -6,7 +6,19 @@ git add .  [tack changes in all files in the project folder]
 git commit -m "Added testing.html" 
 git push -u origin main  [setting up upstream (-u) so that from next push I do not have to mention origin or main]
 
++++++++++++
+Creating a new branch
+--------------------------
+git branch [To see all the branches. The active branch will be with *]
+git checkout xxx [To switch to branch xxx]
+git checkout -b feature  [To creat a new branch named 'feature']
+git diff 
+git push --set-upstream origin feature [To setup the upstream brach where all the push will be uploaded]
+git branch -d xxx [To delete the branch xxx once it has been merged]
 
+
+
+++++++++++++++++++++++++++++++
 To add a new folder
     git init
     git add .
