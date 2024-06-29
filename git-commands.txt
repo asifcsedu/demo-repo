@@ -1,10 +1,11 @@
 git clone git@github.com:asifcsedu/demo-repo.git
-git status
-git add .
-git commit -m "Added testing.html"
+git status  [check the origin]
+git remote add origin  git@github.com:asifcsedu/demo-repo2.git [use to select which repository to use]
+git remote -v [make sure the correct repository is being used]
+git add .  [tack changes in all files in the project folder]
+git commit -m "Added testing.html" 
 git push -u origin main  [setting up upstream (-u) so that from next push I do not have to mention origin or main]
-git remote add origin  git@github.com:asifcsedu/demo-repo2.git
-remote -v
+
 
 To add a new folder
     git init
