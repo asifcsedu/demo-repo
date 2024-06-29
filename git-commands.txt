@@ -6,6 +6,9 @@ git add .  [tack changes in all files in the project folder]
 git commit -m "Added testing.html" 
 git push -u origin main  [setting up upstream (-u) so that from next push I do not have to mention origin or main]
 
+====== Undoing Commits ====
+git reset HEAD~1 [To roll back one commit]
+
 +++++++++++
 Creating a new branch
 --------------------------
