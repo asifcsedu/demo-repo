@@ -12,5 +12,5 @@ To add a new folder
     git status
     git commit -m "....."
     git remote add origin  git@github.com:asifcsedu/demo-repo2.git
-    remote -v
+    git remote -v
     git push origin main
