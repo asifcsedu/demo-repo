@@ -1,0 +1,16 @@
+git clone git@github.com:asifcsedu/demo-repo.git
+git status
+git add .
+git commit -m "Added testing.html"
+git push -u origin main  [setting up upstream (-u) so that from next push I do not have to mention origin or main]
+git remote add origin  git@github.com:asifcsedu/demo-repo2.git
+remote -v
+
+To add a new folder
+    git init
+    git add .
+    git status
+    git commit -m "....."
+    git remote add origin  git@github.com:asifcsedu/demo-repo2.git
+    git remote -v
+    git push origin main
